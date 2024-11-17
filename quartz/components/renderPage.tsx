@@ -224,6 +224,14 @@ export function renderPage(
       <body data-slug={slug}>
         <div id="quartz-root" class="page">
           <Body {...componentData}>
+            <noscript>
+              <iframe
+                src="https://www.googletagmanager.com/ns.html?id=GTM-TBXNV8DN"
+                height="0"
+                width="0"
+                style="display:none;visibility:hidden"
+              ></iframe>
+            </noscript>
             {LeftComponent}
             <div class="center">
               <div class="page-header">
